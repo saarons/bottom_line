@@ -10,7 +10,7 @@ Usage
     3->1  700.00
     
 Then run the program with the following command:
-    hadoop jar <jar file> Transaction <input file> <output directory>
+    hadoop jar transaction.jar Transaction <input file> <output directory>
 
 The output file generated will represent the net effect on each account.  For example using the above input would generate:
     1 800.00
