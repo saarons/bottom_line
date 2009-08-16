@@ -22,8 +22,8 @@ public class Transaction {
         conf.setOutputValueClass(FloatWritable.class);
 
         // specify input and output dirs
-        FileInputFormat.addInputPath(conf, new Path("input"));
-        FileOutputFormat.setOutputPath(conf, new Path("output"));
+        FileInputFormat.addInputPath(conf, new Path(args[0]));
+        FileOutputFormat.setOutputPath(conf, new Path(args[1]));
 
         // specify a mapper
         conf.setMapperClass(TransactionMapper.class);
