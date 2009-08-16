@@ -13,3 +13,8 @@ Usage
 Then run the program with the following command:
     hadoop jar <jar file> <input> <output>
 
+The output file generated will represent the net effect on each account.  For example:
+    1 800.00
+    2 -100.00
+    3 -700.00
+    ...
