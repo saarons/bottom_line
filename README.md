@@ -6,7 +6,7 @@ Installation
 ------------
 1.  Add the hadoop-*version*-core.jar to CLASSPATH
 2.  run the following command in the top directory:
-    ant jar
+    `ant jar`
 
 Usage
 -----
